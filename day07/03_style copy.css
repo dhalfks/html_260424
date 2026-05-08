@@ -194,3 +194,565 @@ main>.slide .slide-time>.slide-time-right img{
 main>.slide .slide-time>.slide-time-right span{
     padding-left: 40px;
 }
+
+/* con1 */
+.con1>.inner{
+    display: flex;
+    justify-content: space-between;
+}
+/* 특별전시 336*645 */
+/* 상설전시 100% - 336px */
+.con1 .con1-left{
+    width: 336px;
+    margin-right: 50px;
+}
+.con1 .con1-right{
+    width: calc(100% - 386px);
+}
+.con1 .top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.con1 .top-left{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.con1 .top-right img{
+    width: 35px;
+    height: 35px;
+}
+/* left image 336*476 */
+.con1 .con1-left .img .image{
+    width: 336px;
+    height: 476px;
+}
+/* right image 320*200 */
+.con1 .con1-right .img .image{
+    width: 320px;
+    height: 200px;
+    margin-right: 30px;
+}
+.con1 .con1-right .img-sub{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding-bottom: 30px;
+}
+.con1 .description strong{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.con1 .description p:nth-of-type(1){
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0 20px 0;
+    letter-spacing: -1px;
+}
+.con1 .description p:nth-of-type(2){
+    font-size: 17px;
+    color: gray;
+    letter-spacing: -1px;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+}
+.con1 .description div{
+    letter-spacing: -1px;
+    position: relative;
+}
+.con1 .description div>img{
+    position: absolute;
+    left: 60px;
+}
+.con1 .bt{
+    text-align: center;
+    margin-top: 30px;
+}
+.con1 .bt img{
+    padding: 0 15px;
+    filter: opacity(0.3);
+}
+.con1 .bt .e{
+    filter: opacity(1);
+}
+.con1 .bt span{
+    padding: 0 5px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* con2 */
+.con2{
+    background-image: url(../image/민속박물관/main_deco_bg_01-D3jcpFS4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.con2 .title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.con2 .sub-title{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 50px 0 80px 0;
+}
+.con2 .sub-title>b{
+    color: rgb(0, 80, 0);
+    font-weight: 600;
+}
+.con2 .sub-title>span:nth-of-type(1){
+    color: rgb(0, 153, 0);
+    padding: 0 5px;
+}
+.con2 .sub-title>span:nth-of-type(2){
+    color: rgb(105, 105, 105);
+}
+.con2 .story{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px 0;
+}
+.con2 .story .story-box{
+    color: black;
+}
+.con2 .story .story-box img{
+    width: 320px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.con2 .story .story-box .story-age{
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding-top: 7px;
+}
+.con2 .story .story-box .u{
+    background-color: rgb(0, 85, 0);
+}
+.con2 .story .story-box .c{
+    background-color: rgb(0, 0, 142);
+}
+.con2 .story .story-box .story-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+.con2 .story .story-box .story-days{
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+    letter-spacing: -2px;
+}
+.con2 .show{
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 100px auto 0;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-top: 18px;
+}
+
+/*con3*/
+.con3{
+    background-image: url(../image/민속박물관/main_escape_bg_pc-D0RSiOJB.jpg);
+}
+.con3 .title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.con3 .sub-title{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(103, 103, 103);
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin: 50px 0 80px 0;
+}
+.con3 .mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* arrow 68*68 */
+.con3 .arrow{
+    width: 68px;
+    height: 68px;
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+}
+.con3 .arrow-left{
+    background-image: url(../image/민속박물관/다운로드\ \(4\).svg);
+}
+.con3 .arrow-right{
+    background-image: url(../image/민속박물관/다운로드\ \(3\).svg);
+}
+/* mid-main 1072*456  / left-box 429*456 / right 100%-429px */
+.con3 .mid-main{
+    width: 1072px;
+    height: 456px;
+    box-shadow: 5px 5px 20px rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+/* left-box 429*456 / img 240*336 */
+.con3 .mid-main .left-box{
+    background-image: url(../image/민속박물관/imgi_49_main_deco_bg_02-BHVkLLTU.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 429px;
+    height: 456px;
+    position: relative;
+}
+.con3 .mid-main .left-box img{
+    width: 240px;
+    height: 336px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.con3 .mid-main .right-box{
+    width: calc(100% - 429px);
+    height: 456px;
+    box-sizing: border-box;
+    padding: 60px 150px 0 80px;
+    background-color: white;
+}
+.con3 .mid-main .right-box .right-title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+.con3 .mid-main .right-box .right-discreption{
+    color: rgb(90, 90, 90);
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.con3 .mid-main .right-box .sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.con3 .mid-main .right-box .sub .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con3 .mid-main .right-box .sub .star-box{
+    margin-right: 40px;
+}
+.con3 .mid-main .right-box .star{
+    width: 36px;
+    height: 36px;
+    background-image: url(../image/민속박물관/다운로드\ \(15\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50%;
+}
+.con3 .mid-main .right-box .time{
+    width: 36px;
+    height: 36px;
+    background-image: url(../image/민속박물관/다운로드\ \(21\).svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 50%;
+}
+.con3 .mid-main .right-box .box span{
+    font-size: 18px;
+    letter-spacing: -2px;
+    margin: 0 8px;
+}
+.con3 .mid-main .right-box .box .stars>.y{
+  /* 1. brightness(0)으로 검정색 초기화 */
+  /* 2. 오렌지색(#FF8C00) 계열 필터 적용 */
+  filter: brightness(0) saturate(100%) invert(64%) sepia(97%) saturate(1831%) hue-rotate(360deg) brightness(102%) contrast(106%);
+}
+.con3 .mid-main .right-box .time-box>span:nth-of-type(2){
+    color: gray;
+    font-size: 16px;
+}
+.con3 .mid-main .right-box .right-show{
+    width: 200px;
+    height: 60px;
+    background-image: url(../image/민속박물관/imgi_49_main_deco_bg_02-BHVkLLTU.jpg);
+    text-align: center;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-top: 18px;
+}
+.con3 .mid-main .right-box .right-show>a{
+    color: white;
+}
+.con3 .show{
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 100px auto 0;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding-top: 18px;
+}
+/* con4 */
+/* 656*280 */
+.con4 .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+.con4 .inner a{
+    color: white;
+}
+.con4 .inner .box{
+    width: 656px;
+    height: 280px;
+    position: relative;
+}
+.con4 .inner .left-box{
+    background-image: url(../image/민속박물관/imgi_21_.202509251997cfd11bb40.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.con4 .inner .right-box{
+    background-image: url(../image/민속박물관/imgi_22_.202509251997cfece7480.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.con4 .inner .banner-box{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.con4 .inner .banner-box p:first-child{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+}
+.con4 .inner .banner-box p:last-child{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+/* con5 */
+/* 100px */
+.con5{
+    padding: 0;
+}
+.con5 .inner2{
+    display: flex;
+}
+.con5 .inner2 a{
+    width: 100%;
+    color: white;
+}
+.con5 .inner2 .box{
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.con5 .left-box{
+    background-color: rgb(0, 94, 0);
+    padding: 0 50px 0 220px;
+}
+.con5 .right-box{
+    background-color: rgb(0, 51, 0);
+    padding: 0 220px 0 50px;
+}
+.con5 .box .icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgb(0, 32, 0);
+    margin-right: 20px;
+}
+.con5 .box .icon .icon-left{
+    width: 48px;
+    height: 48px;
+    background-image: url(../image/민속박물관/다운로드\ \(14\).svg);
+    filter: invert(100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+.con5 .box .icon .icon-right{
+    width: 48px;
+    height: 48px;
+    background-image: url(../image/민속박물관/다운로드\ \(9\).svg);
+    filter: invert(100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.con5 .box span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.con5 .box img{
+    width: 36px;
+    height: 36px;
+    filter: invert(100%);
+    padding-left: 430px;
+}
+
+/* footer */
+footer{
+    padding: 50px 0;
+}
+#b{
+    color: blue;
+}
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+footer .top .right-top ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+footer .top .right-top ul>li{
+    margin: 0 10px;
+}
+footer .top .right-top ul>li>a{
+    color: black;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+footer .top .right-bt{
+    display: flex;
+    justify-content: end;
+}
+footer .top .right-bt .family-site{
+    width: 168px;
+    height: 38px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50px;
+    padding: 10px 0 0 30px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    font-size: 15px;
+    color: rgb(67, 67, 67);
+}
+footer .top .right-bt .family-site img{
+    width: 15px;
+    padding-left: 15px;
+}
+footer .top .right-bt .icon img{
+    margin-left: 10px;
+}
+footer .bt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .bt .left-top{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+footer .bt .left-top img{
+    width: 15px;
+    padding-left: 15px;
+}
+footer .bt .left-mid{
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+footer .bt .left-mid span{
+    margin: 0 10px;
+    color: rgb(67, 67, 67);
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+footer .bt .left-mid .first{
+    margin-left: 0;
+}
+footer .bt .left-bt{
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: rgb(67, 67, 67);
+}
+footer .bt .bt-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+footer .bt .bt-right .bt-right1{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+footer .bt .bt-right .bt-right2{
+    display: flex;
+    align-items: center;
+}
+footer .bt .bt-right .bt-right1 .img{
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/민속박물관/imgi_24_footer_mark_ismsp-CO5-I-2X.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+footer .bt .bt-right .bt-right2 .img{
+    width: 44px;
+    height: 31px;
+    background-image: url(../image/민속박물관/imgi_25_footer_mark_service-Bb-xvGQT.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px;
+}
+footer .bt .bt-right .bt-right1 span{
+    margin: 0 10px;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+footer .bt .bt-right .bt-right2 div{
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+footer .fixed-top{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgb(206, 206, 206);
+}
+footer .fixed-top a svg{
+    padding: 13px 13px;
+}
+footer .fixed-top a svg path{
+    stroke: rgb(0, 63, 0);
+}
