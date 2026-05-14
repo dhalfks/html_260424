@@ -1,0 +1,1 @@
+console.log('script2 파일의 콘솔로그');
