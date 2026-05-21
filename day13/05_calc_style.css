@@ -1,0 +1,30 @@
+.container{
+    width: 300px;
+    margin: 50px auto;
+}
+#printResult{
+    text-align: right;
+    height: 40px;
+    padding: 15px;
+    background-color: beige;
+    border: 1px solid rgb(89, 89, 69);
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.container>.area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.container>.area>.c{
+    grid-column: span 4;
+    background-color: azure;
+}
+.container>.area>button{
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid rgb(185, 185, 185);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgb(222, 222, 222);
+    border-radius: 15px;
+}
